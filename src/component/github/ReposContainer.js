@@ -22,9 +22,6 @@ class ReposContainer extends Component {
         fetchRepos(this.state.username).then(res => this.setState({ repos: res.data }))
     }
 
-    componentDidMount() {
-    }
-
     render() {
         return (
             <div>
